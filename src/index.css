@@ -1,0 +1,50 @@
+/* Basic styling for the shopping list container */
+.shopping-list {
+    margin: 0 auto;  /* Center the list horizontally */
+    width: 500px;  /* Adjust width as needed */
+    border: 1px solid #ddd;  /* Add a thin border */
+    padding: 15px;
+  }
+  
+  /* Style the heading */
+  .shopping-list h2 {
+    text-align: center;  /* Center the heading text */
+    margin-bottom: 15px;  /* Add some space below the heading */
+  }
+  
+  /* Style the input fields and button */
+  .shopping-list form {
+    display: flex;  /* Arrange elements horizontally */
+    margin-bottom: 15px;  /* Add some space below the form */
+  }
+  
+  .shopping-list form input,
+  .shopping-list form button {
+    padding: 5px 10px; /* Add padding to input and button */
+    border: 1px solid #ccc; /* Add a thin border */
+    margin-right: 5px;  /* Add some space between elements */
+  }
+  
+  .shopping-list form button {
+    background-color: #4CAF50; /* Green button color */
+    color: white;  /* White text color */
+    cursor: pointer;  /* Change cursor to pointer on hover */
+  }
+  
+  /* Style the table */
+  .shopping-list table {
+    width: 100%;  /* Make the table fill the container width */
+    border-collapse: collapse; /* Remove borders between cells */
+  }
+  
+  .shopping-list table th,
+  .shopping-list table td {
+    padding: 10px;  /* Add padding to table cells */
+    border: 1px solid #ddd; /* Add a thin border to cells */
+    text-align: left;  /* Align text to the left */
+  }
+  
+  .shopping-list table thead th {
+    background-color: #f2f2f2;  /* Light gray background for table header */
+  }
+  
